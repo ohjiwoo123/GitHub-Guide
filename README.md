@@ -52,6 +52,5 @@ ls
 <img width="563" alt="스크린샷 2021-08-09 오후 10 57 41" src="https://user-images.githubusercontent.com/80387186/128719224-ea3e3540-841b-4ed6-b614-f6911f85906b.png"><br>
 - (9) `<git checkout main>`<br>
     - 가장 최근에 커밋한 상태로 돌아온다. (브랜치가 master일 경우에는 `<git checkout master>` <br>
-<img width="558" alt="스크린샷 2021-08-09 오후 11 21 14" src="https://user-images.githubusercontent.com/80387186/128722040-42d44085-acab-418f-9a7a-6ccef8acdad8.png">
-<br>
+<img width="558" alt="스크린샷 2021-08-09 오후 11 21 14" src="https://user-images.githubusercontent.com/80387186/128722040-42d44085-acab-418f-9a7a-6ccef8acdad8.png"><br>
 - (10) `<git >`<br>
