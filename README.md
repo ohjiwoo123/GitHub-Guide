@@ -3,6 +3,26 @@
 pull -> push -> commit <br>
 git fetch -> git merge Fetch_HEAD -> commit -> push <br>
 git pull = git fetch; git merge origin/master <br>
+
+### 0) 처음 repo 만들고 기본 Add, Commit, Push 
+…or create a new repository on the command line
+echo "# cs2dddx" >> README.md
+```
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ohjiwoo123/cs2dddx.git
+git push -u origin main
+```
+…or push an existing repository from the command line
+```
+git remote add origin https://github.com/ohjiwoo123/cs2dddx.git
+git branch -M main
+git push -u origin main
+```
+…or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
 ### 1) 기본 사용법
 ```zsh
 # git 연습을 위한 폴더 생성
