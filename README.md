@@ -117,3 +117,11 @@ ls
     - merge 합칠 때, 도움을 주는 기능. Helix Visual Merge Tool(P4Merge)은 3방향 병합 및 병렬 파일 비교 도구입니다. <br>
 - (2) cherry-pick <br>
     - git cherry-pick임의의 Git 커밋을 참조로 선택하고 현재 작업 중인 HEAD에 추가할 수 있는 강력한 명령입니다. 체리 따기는 브랜치에서 커밋을 골라 다른 브랜치에 적용하는 행위입니다. git cherry-pick변경 사항을 취소하는 데 유용할 수 있습니다. 예를 들어 실수로 잘못된 브랜치에 커밋했다고 가정해 보겠습니다. 올바른 분기로 전환하고 커밋이 속해야 할 위치를 선택하면 됩니다. <br>
+    
+    
+    
+## git rebase와 merge 
+- master branch와 sub branch가 있다고 가정한다.  
+- 현재 나는 sub branch에서 작업중 `git checkout sub`  
+- `git rebase master` 하면 sub가 master 앞으로감.  
+- git merge의 경우 `git merge`   
